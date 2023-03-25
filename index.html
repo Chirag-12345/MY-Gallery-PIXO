@@ -7,7 +7,7 @@
     <title>PIXO</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onmousedown='return false;' onselectstart='return false;'>
     <h1>MY GALLERY : PIXO</h1>
     <div id="images_section" >
     <img src="" loading="lazy" decoding="async" alt="">
@@ -20,11 +20,11 @@
     <img src="" loading="lazy" decoding="async" alt="">
     <img src="" loading="lazy" decoding="async" alt="">
     <img src="" loading="lazy" decoding="async" alt="">
-
 </div>
 
 <div id="Slider_div">
     <button class="btn" onclick="Close()">Close</button>
+    <a href="" class="btn" download target="_blank">Download</a>
     <img src="" id="display_image"> 
     <button class="btn" onclick="Next()">Next</button>
     <button class="btn btn1" onclick="Prev()">Prev</button>
