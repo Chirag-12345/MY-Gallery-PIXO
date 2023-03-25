@@ -38,7 +38,6 @@ img:hover{
 
 .btn:hover{
     font-size: 35px;
-    background-color: beige;
 }
 .btn1{
     position: absolute;
@@ -59,6 +58,14 @@ img:hover{
     right: auto;
     left: auto;
     display:none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    color:#B8621B;
 }
 
 footer{
